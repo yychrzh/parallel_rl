@@ -29,7 +29,7 @@ if __name__ == '__main__':
         "max_pathlength":       int(200),
         "replay_memory_size":   int(500000),
         "gamma":                float(0.95),
-        "lam":                  float(0.95),
+        "lam":                  float(0.92),
         "policy_network_shape": list([64, 64]),
         "value_network_shape":  list([64, 64]),
         "policy_opt_epochs":    int(15),
