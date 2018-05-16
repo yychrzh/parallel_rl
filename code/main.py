@@ -18,7 +18,7 @@ if __name__ == '__main__':
     # parameter list
     para_list = {
         "task":                 str('Pendulum-v0'),
-        "model":                str('ppo'),
+        "model":                str('trpo'),
         "weights_path":         str(main_save_path + 'weights/'),
         "log_path":             str(main_save_path + 'logs/'),
         "memory_path":          str(main_save_path + 'memory/'),
